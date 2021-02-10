@@ -1,0 +1,23 @@
+name: "AdGuard Home"
+type: "sw.application"
+description: "AdGuard Home is a network-wide software for blocking ads & tracking."
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/taylanbakircioglu/balena-adguard"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/taylanbakircioglu/balena-adguard/main/logo.png"
+data:
+  defaultDeviceType: "asus-tinker-board"
+  supportedDeviceTypes:
+    - "raspberry-pi"
+    - "raspberry-pi2"
+    - "raspberrypi3"
+    - "raspberrypi3-64"
+    - "raspberrypi4-64"
+    - "fincm3"
+    - "intel-nuc"
+    - "asus-tinker-board"
